@@ -1,0 +1,166 @@
+@charset "UTF-8";
+
+body{
+  margin: 0%;
+  background-image: url(grama.jpg);
+}
+
+header{
+  width: 100%;
+  height: 10%;
+  background-color: rgb(21, 160, 176);
+  position: fixed;
+  z-index: 4;
+}
+
+h1{
+  position: absolute;
+  text-shadow: 1px 1px 4px black;
+  color: white;
+  font-size: 16pt;
+  left: 2%;
+  top: 10%;
+  z-index: 5;
+}
+
+#img1{
+  position: absolute;
+  display: inline-block;
+  left: 3%;
+}
+
+#form1{
+  display: inline-block;
+  position: fixed;
+  left: 15%;
+  top: 3%;
+}
+
+#paginas{
+		display: inline-block;
+		position: fixed;
+		font-size: 10pt;
+		top: 1%;
+		right: 10px;
+}
+
+#paginas ul{
+		list-style: none;
+		text-transform: uppercase;
+}
+
+#paginas li{
+	float: right;
+	font-family: arial;
+	display: inline-block;
+	padding: 2px;
+	margin-right: 30px;
+}
+
+.pag-itens{
+    text-decoration: none;
+}
+
+.pag-itens:link{
+  color: white;
+}
+
+.pag-itens:visited{
+  color: white;
+}
+
+.pag-itens:hover{
+  color: white;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+#caixa1{
+  position: absolute;
+  display: inline-block;
+  top: 15%;
+  left: 13%;
+  background-color: white;
+  border: 3px solid black;
+  width: 70%;
+  height: 110%;
+  padding: 3%;
+}
+
+#titulo{
+  text-align: center;
+}
+
+#texto{
+  position: absolute;
+  display: block;
+  top: 15%;
+  background-color: white;
+  border: 1px solid black;
+  width: 88%;
+  height: 70%;
+  padding: 2%;
+}
+
+#enviar{
+
+  position: absolute;
+  left: 45%;
+}
+
+#redes{
+  text-align: center;
+
+}
+
+footer{
+  position: absolute;
+  background-color: lightblue;
+  height: 22%;
+  width: 99.6%;
+  top: 140%;
+  border: 3px solid black;
+  text-align: center;
+}
+
+footer li{
+
+  	font-family: arial;
+  	display: inline-block;
+  	padding: 2px;
+  	margin-right: 50px;
+    font-size: 12pt;
+
+}
+
+.foot-itens{
+    text-decoration: none;
+}
+
+.foot-itens:link{
+  color: black;
+}
+
+.foot-itens:visited{
+  color: black;
+}
+
+.foot-itens:hover{
+  color: black;
+  font-weight: bold;
+  text-decoration: underline;
+  padding: 13%;
+}
+
+#img4{
+  position: absolute;
+  display: inline-block;
+  left: 3%;
+}
+
+#img5{
+  position: absolute;
+  display: inline-block;
+  right: 3%;
+
+}
