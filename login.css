@@ -1,0 +1,183 @@
+@charset "UTF-8";
+
+body{
+  margin: 0%;
+  background-image: url(grama.jpg);
+}
+
+header{
+  display: block;
+  width: 100vw;
+  height: 10vh;
+  background-color: rgb(21, 160, 176);
+  position: fixed;
+  z-index: 4;
+}
+
+h1{
+  position: absolute;
+  text-shadow: 1px 1px 4px black;
+  color: white;
+  font-size: 16pt;
+  left: 2vw;
+  top: 4vh;
+  z-index: 5;
+}
+
+#img1{
+  position: absolute;
+  display: inline-block;
+  left: 3vw;
+}
+
+#form1{
+  display: inline-block;
+  position: fixed;
+  left: 15vw;
+  top: 3vh;
+}
+
+#paginas{
+		display: inline-block;
+		position: fixed;
+		font-size: 10pt;
+		top: 1vh;
+		right: 1vw;
+}
+
+#paginas ul{
+		list-style: none;
+		text-transform: uppercase;
+}
+
+#paginas li{
+	float: right;
+	font-family: arial;
+	display: inline-block;
+	padding: 1rem;
+	margin-right: 2vw;
+}
+
+.pag-itens{
+    text-decoration: none;
+}
+
+.pag-itens:link{
+  color: white;
+}
+
+.pag-itens:visited{
+  color: white;
+}
+
+.pag-itens:hover{
+  color: white;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.login {
+  width: 50vw;
+  height: 45vh;
+  position: absolute;
+  margin-left: 25vw;
+  margin-top: 20vh;
+}
+
+.login h2{
+  color: black;
+  text-align: center;
+}
+
+.login input {
+  margin-left: 1vw;
+}
+
+.login label {
+  margin-left: 17vw;
+}
+
+.login button {
+  margin-left: 23vw;
+}
+
+#img2{
+  position: absolute;
+  border : 4px;
+  left: 8vw;
+  top: 5vh;
+}
+
+#img3{
+  position: absolute;
+  border : 4px;
+  right: 8vw;
+  top: 5vh;
+}
+
+#destaques{
+  position: absolute;
+  padding-left: 8vw;
+  padding-right: 8vw;
+  width: 84vw;
+  height: 150vh;
+  top: 70vh;
+  display: inline-block;
+}
+
+.imgdestaque{
+  margin: 10px;
+}
+
+footer{
+  display: block;
+  position: absolute;
+  background-color: lightblue;
+  height: 22vh;
+  width: 99.6vw;
+  top: 80vh;
+  border: 3px solid black;
+  text-align: center;
+}
+
+footer li{
+
+  	font-family: arial;
+  	display: inline-block;
+  	padding: 0.5rem;
+  	margin-right: 5vw;
+    font-size: 12pt;
+
+}
+
+.foot-itens{
+    text-decoration: none;
+}
+
+.foot-itens:link{
+  color: black;
+}
+
+.foot-itens:visited{
+  color: black;
+}
+
+.foot-itens:hover{
+  color: black;
+  font-weight: bold;
+  text-decoration: underline;
+  padding: 13vw;
+}
+
+#img4{
+  position: absolute;
+  display: inline-block;
+  left: 3vw;
+}
+
+#img5{
+  position: absolute;
+  display: inline-block;
+  right: 3vw;
+
+}
