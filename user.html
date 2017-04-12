@@ -4,74 +4,90 @@
   <head>
      <meta charset="UTF-8"/>
      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+     <link rel="stylesheet" href="assets/stylesheets/styles.css"/>
      <link rel="stylesheet" href="assets/stylesheets/user.css"/>
      <title> Pet Shop </title>
   </head>
 
   <body>
-      <header>
+    <header>
 
+      <a id="logo" href="home.html">
         <h1>
           Patinhas petshop
         </h1>
-        <img id="img1" src="pata.png" alt = "icone" width="110px" height="60px"/>
+        <img id="img1" src="assets/images/pata.png" alt = "icone" width="110px" height="60px"/>
+      </a>
 
-        <form id="form1">
-      			<input type="text" name="Pesquisar:" value="Digite aqui sua busca..." size="50">
-    				<input type="Submit" value="Buscar">
-    		</form>
+      <form id="form1">
+          <input class="search-bar" type="text" name="Pesquisar:" placeholder="Digite sua busca" size="30">
+          <button class="search-button" type="submit">
+            <i class="fa fa-search" aria-hidden="true"></i>
+          </button>
+      </form>
 
-        <nav id="paginas">
-        	<ul>
-    				<li>
-              <a class="pag-itens" href="home.html" target="_blank">Carrinho</a>
-    				</li>
-    				<li>
-              <a class="pag-itens" href="home.html" target="_blank">Cadastrar</a>
-    				</li>
-    				<li>
-              <a class="pag-itens" href="login.html" target="_blank">Entrar</a>
-    				</li>
-            <li>
-              <a class="pag-itens" href="home.html" target="_blank">Ajuda online</a>
-    				</li>
-            <li>
-              <a class="pag-itens" href="fale_conosco.html" target="_blank">Fale Conosco</a>
-    				</li>
-    			</ul>
-    		</nav>
-
-      </header>
-
-      <h2> Dados Pessoais: </h2><br/>
-
-      <div id="cliente">
-        <img src="mulher.jpg" width="200px" height="200px" alt="Foto"/>
+      <nav id="paginas">
         <ul>
           <li>
-            Nome:
+            <a class="pag-itens" href="login.html" target="_blank">Entrar</a>
           </li>
-          <br/>
           <li>
-            Endereço:
+            <a class="pag-itens" href="cadastro.html" target="_blank">Cadastrar</a>
           </li>
-          <br/>
           <li>
-            Telefone:
+            <a class="pag-itens" href="pet.html" target="_blank">Meu pet</a>
           </li>
-          <br/>
           <li>
-            Email:
+            <a class="pag-itens" href="user.html" target="_blank">Minha conta</a>
+          </li>
+          <li>
+            <a class="pag-itens" href="fale_conosco.html" target="_blank">Fale Conosco</a>
           </li>
         </ul>
-        <br/>
-        <div id="pets">
-          <p><b> Animais: </b></p>
-          <img class="pet_photo" src="cachorro.png" width="150px" height="200px" alt="Pet1">
-          <img class="pet_photo" src="hamster.jpg" width="150px" height="200px" alt="Pet2">
-          <img class="pet_photo" src="" width="150px" height="200px" alt="Pet3">
-          <img class="pet_photo" src="" width="150px" height="200px" alt="Pet4">
+      </nav>
+    </header>
+
+      <div id="caixa">
+
+        <div id="imgcadastro">
+          <img src="assets/images/perfil.jpg" alt = "icone" width="200px" height="200px"/>
         </div>
+
+        <div class="info">
+
+          <form class="forms">
+            <label>Nome:</label><br>
+            <input type="text" name="Nome:" value="" size="40">
+          </form>
+
+          <form class="forms">
+            <label>Sobrenome:</label><br>
+            <input type="text" name="Sobrenome:" value="" size="40">
+          </form>
+
+          <form class="forms">
+            <label>Celular:</label><br>
+            <input type="text" name="Nome:" value="" size="40">
+          </form>
+
+          <form class="forms">
+            <label>Idade:</label><br>
+            <input type="text" name="Sobrenome:" value="" size="40">
+          </form>
+
+          <h2>Seus pets:</h2>
+
+          <div class="pets">
+            <img src="assets/images/pug.jpeg" alt = "pet" width="100px" height="100px"/>
+            <img src="assets/images/cat.jpg" alt = "pet" width="100px" height="100px"/>
+            <img src="assets/images/cat2.jpg" alt = "pet" width="100px" height="100px"/>
+            <img src="assets/images/hamster.jpg" alt = "pet" width="100px" height="100px"/>
+          </div>
+
+        </div>
+
+
+
       </div>
 
       <footer>
@@ -97,9 +113,9 @@
           </li>
         </ul>
 
-        <img id="img4" src="pata.png" alt = "icone" width="110px" height="60px"/>
+        <img id="img4" src="assets/images/pata.png" alt = "icone" width="110px" height="60px"/>
 
-        <img id="img5" src="pata.png" alt = "icone" width="110px" height="60px"/>
+        <img id="img5" src="assets/images/pata.png" alt = "icone" width="110px" height="60px"/>
 
         <h3>
           Patinhas petshop
@@ -108,6 +124,7 @@
         Copyright (c) 2016 Copyright Holder All Rights Reserved.
 
       </footer>
+
 
   </body>
 
