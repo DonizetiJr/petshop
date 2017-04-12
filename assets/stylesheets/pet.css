@@ -1,8 +1,16 @@
+body {
+  background-image: linear-gradient(-141deg, rgba(244,247,247,0.4) 0, rgba(170,207,208,0.4) 27%, rgba(121,168,169,0.5) 52%, rgba(31,78,95,0.6) 100%),
+  url(../images/pug.jpeg);
+
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 #animal {
   display: inline-block;
+  background-color: rgba(256,256,256,.8);
   width: 30%;
   margin:10% 0% 5% 35%;
-  border: 7px solid #f9f9f9;
   padding: 3em 1.2em;
   border-radius: 10px;
 
