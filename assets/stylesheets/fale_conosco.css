@@ -5,14 +5,6 @@ body {
   background-repeat: no-repeat;
   color: #79a8a9;
 }
- i{
-  font-size: 1.1em;
-  color: #79a8a9;
- }
-
- i:hover {
-   color: #1f4e5f;
- }
 
 .button {
   margin-left: 0%;
@@ -43,4 +35,13 @@ body {
 #redes{
   color: #1f4e5f;
   text-align: center;
+}
+
+#redes .fa {
+ font-size: 1.1em;
+ color: #79a8a9;
+}
+
+#redes .fa:hover {
+  color: #1f4e5f;
 }
