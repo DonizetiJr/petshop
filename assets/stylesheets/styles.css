@@ -137,6 +137,10 @@ label {
   font-weight: bold;
 }
 
+.fa.fa-shopping-cart {
+  font-size: 1.4em;
+}
+
 #menu{
   display: block;
   width: 97.9%;
